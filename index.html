@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salão Corte da Ju</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#home">Início</a>
+        <a href="cort.html">Cortes</a>
+        <a href="formu.html">Agendamento</a>
+        <a>Siga-nos:<a href="https://www.instagram.com/jhs_estudios/">Instagram</a>
+            <a href="https://wa.me/5584987136668" target="_blank">Fale conosco pelo WhatsApp</a>
+        </a></a>
+    </nav>
+
+    <section id="home">
+        <h1>Bem-vindo ao Judileide.M_studio</h1>
+        <p>Seu espaço para transformação e bem-estar.</p>
+        <a href="formu.html"><button>Agende seu horário</button></a>
+    </section>
+
+
+
+    <section id="carrossel">
+        <h2>Nossos Trabalhos</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slides do carrossel -->
+                <div class="swiper-slide">
+                    <img src="Imagem do WhatsApp de 2025-02-26 à(s) 09.57.01_5a0a9153.jpg" alt="Corte 1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="Imagem do WhatsApp de 2025-02-26 à(s) 09.57.01_5abe4ded.jpg" alt="Corte 2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="Imagem do WhatsApp de 2025-02-26 à(s) 09.57.01_735ad572.jpg" alt="Corte 3">
+                </div>
+                <div class="swiper-slide">
+                    <img src="Imagem do WhatsApp de 2025-02-26 à(s) 09.57.01_da8f0457.jpg" alt="Corte 4">
+                </div>
+                <div class="swiper-slide">
+                    <img src="Imagem do WhatsApp de 2025-02-26 à(s) 09.57.02_44dde931.jpg" alt="Corte 5">
+                </div>
+            </div>
+            <!-- Paginação -->
+            <div class="swiper-pagination"></div>
+            <!-- Botões de navegação -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            loop: true, // Permite loop infinito
+            autoplay: {
+                delay: 6000, // Tempo em milissegundos (3 segundos)
+                disableOnInteraction: false, // Continua o autoplay mesmo após interação do usuário
+            },
+            pagination: {
+                el: '.swiper-pagination', // Adiciona paginação
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next', // Botão de próximo
+                prevEl: '.swiper-button-prev', // Botão de anterior
+            },
+        });
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
+<footer>
+    <p>Contato: (84) 98713-6668 | Email: contato@Judileide.M_studio.com</p>
+    <p>Siga-nos: <a href="https://www.instagram.com/jhs_estudios/">Instagram</a>  |
+    <a href="https://wa.me/5584987136668" target="_blank">Fale conosco pelo WhatsApp</a>
+</footer>
